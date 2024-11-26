@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta Tags -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Links -->
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+            integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <!-- Title -->
+        <title>University Website Design</title>
+    </head>
+    <body>
+        <!-- Header -->
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"
+                    ><img src="/Assets/Images/logo.png" alt=""
+                /></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="content.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <h1>Contact Us</h1>
+        </section>
+
+        <!-- Content -->
+        <section class="location">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6476.213680096084!2d51.384897555871966!3d35.748178664353844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e071bb5af9ee5%3A0x375ea004d8212a89!2z2K_Yp9mG2LTar9in2Ycg2LnZhNmI2YUg2b7Ysti02qnbjCDZiCDYrtiv2YXYp9iqINio2YfYr9in2LTYqtuMINiv2LHZhdin2YbbjCDYp9uM2LHYp9mG!5e0!3m2!1sfa!2s!4v1732608666066!5m2!1sfa!2s"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+        </section>
+
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h4>Hemat Highway, next to Milad Tower</h4>
+                            <p>Tehran, Iran</p>
+                        </span>
+                    </div>
+
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h4>+98 123 123 1234</h4>
+                            <p>Saturday to Wednesday</p>
+                        </span>
+                    </div>
+
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <span>
+                            <h4>info@university.com</h4>
+                            <p>Email us</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-col">
+                    <form>
+                        <input
+                            type="text"
+                            placeholder="Enter Your Name"
+                            required
+                        />
+                        <input
+                            type="email"
+                            placeholder="Enter Your Email Address"
+                            required
+                        />
+                        <input
+                            type="text"
+                            placeholder="Enter Your Subject"
+                            required
+                        />
+                        <textarea
+                            rows="8"
+                            placeholder="Your Message"
+                            required
+                        ></textarea>
+                        <button type="submit" class="hero-btn red-btn">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Similique debitis veniam <br />assumenda voluptatem vero
+                inventore labore hic est magnam ipsum.
+            </p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+
+            <p>Made with <i class="fa fa-heart"></i> by Hazhir Naseri</p>
+        </section>
+
+        <!-- Script -->
+        <script src="script.js"></script>
+    </body>
+</html>
